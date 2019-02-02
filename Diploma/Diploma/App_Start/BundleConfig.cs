@@ -25,6 +25,10 @@ namespace Diploma
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+            
+            //My bundles
+            bundles.Add(new ScriptBundle("~/bundles/scripts").Include(
+                      "~/Scripts/design.js"));
         }
     }
 }

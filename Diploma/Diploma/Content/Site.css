@@ -1,6 +1,6 @@
 ﻿body {
     padding-top: 50px;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +21,32 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+/* My Styles */
+.background {
+    background: url("../Images/background1.jpg") repeat;
+    /* Set a specific height */
+    height: 2000px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    color: white;
+}
+
+.the-name {
+    text-align: center;
+    color: white;
+    font-size: 30px
+}
+
+.logo{
+    align-content: center;
+}
+.logo img {
+    border-radius: 50%;
 }
